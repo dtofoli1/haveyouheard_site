@@ -1,0 +1,8 @@
+.base {
+    position: relative;
+    height: 100px;
+    left: 1px;
+    top: 650px;
+
+    opacity: 0.8;
+}
