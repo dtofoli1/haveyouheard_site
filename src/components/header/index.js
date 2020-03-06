@@ -1,19 +1,32 @@
 import React, { Component } from 'react'
-import './header.css'
+import { Title, AboutUs, Collaborate, HowToPlay, Spanish, Portuguese, BotBar} from './styles'
 
 export class Header extends Component {
     render() {
         return (
             <div>
-                <span className="titlebox">HAVE YOU HEARD?</span>
-                <span className="aboutus">Sobre nos</span>
-                <span className="howtoplay">Como jogar</span>
-                <span className="collaborate">Colaborar</span>
-                <span className="es">ES</span>
-                <span className="slash">/</span>
-                <span className="pt">PT</span>
-                    <div className="footer">
-                        <span className="footertext">Um jogo sobre mal entendidos</span>
+                <Title>
+                    HAVE YOU HEARD?
+                </Title>
+                <AboutUs>
+                    Sobre nos
+                </AboutUs>
+                <HowToPlay>
+                    Como jogar
+                </HowToPlay>
+                <Collaborate>
+                    Colaborar
+                </Collaborate>
+                <Spanish>
+                    ES
+                </Spanish>
+                <Portuguese>
+                    PT
+                </Portuguese>
+                    <div>
+                        <BotBar>
+                            Um jogo sobre mal entendidos
+                        </BotBar>
                     </div>
             </div>
         )
