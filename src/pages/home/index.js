@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import logo from '../../images/logo.svg'
-import './home.css'
+import { HomeText, LogoArea, CollabButton } from './styles'
 
 class Home extends Component {
     render() {
         return(
             <div>
-                <div className="hometext">
+                <HomeText>
                     <p>O jogo Have You Heard foi idealizado durante o 
                     Hackathon TodosXFakes do Goethe Institut, realizado 
                     em São Paulo em Outubro de 2019. </p>
@@ -22,13 +21,11 @@ class Home extends Component {
                     e gostaria de colocar ela no jogo? 
                     Clica no botão abaixo e 
                     compartilha com a gente</p>
-                    <span>
-                        <img src={logo} alt="logo do jogo, duas pessoas conversando" className="logoposition"/>
-                    </span>
-                </div>
-                <div className="buttoncollab">
-                    <p className="buttontext">Colaborar - Enviar uma notícia</p>
-                </div>
+                </HomeText>
+                <LogoArea />
+                <CollabButton>
+                    <p>Colaborar - Enviar uma notícia</p>
+                </CollabButton>
             </div>
         )
     }

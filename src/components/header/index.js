@@ -9,7 +9,7 @@ export class Header extends Component {
                     HAVE YOU HEARD?
                 </Title>
                 <AboutUs>
-                    Sobre nos
+                    Sobre nós
                 </AboutUs>
                 <HowToPlay>
                     Como jogar
@@ -25,7 +25,7 @@ export class Header extends Component {
                 </Portuguese>
                     <div>
                         <BotBar>
-                            Um jogo sobre mal entendidos
+                            <p>Um jogo sobre mal entendidos</p>
                         </BotBar>
                     </div>
             </div>

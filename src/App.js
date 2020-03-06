@@ -11,9 +11,7 @@ function App() {
       <header>
         <Header/>
       </header>
-      <main>
         <Home />
-      </main>
     </div>
   )
 }

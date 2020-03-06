@@ -1,28 +1,3 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    background: #252C4A;    
-}
-
-.container {
-    display: grid;
-    grid-template: 20vh 60vh 20vh/ 0,5fr;
-    grid-template-areas: "h h"
-                        "m m"
-                        "f f"
-}
-
-header {
-    grid-area: h;
-}
-
-main {
-    grid-area: m;
-}
-
-footer {
-    grid-area: f;
+    background: #252C4A;
 }
