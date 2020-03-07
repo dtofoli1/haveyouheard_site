@@ -1,8 +1,8 @@
 .base {
-    position: relative;
+    position: absolute;
     height: 100px;
     left: 1px;
-    top: 650px;
+    top: 107%;
 
     opacity: 0.8;
 }

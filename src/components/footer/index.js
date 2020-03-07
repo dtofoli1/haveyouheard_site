@@ -1,16 +1,19 @@
 import React, { Component } from 'react'
-import footerimg from '../../images/footerimg.svg'
+import { FooterImage } from './styles'
+//import footerimg from '../../images/footerimg.svg'
 
 import './footer.css'
 
-export class footer extends Component {
+export class Footer extends Component {
     render() {
         return (
-            <div className="base">
-                <img src={footerimg} alt="personagens espalhados no rodapé" width="100%"/>
+            <div>
+                <FooterImage>
+                    
+                </FooterImage>
             </div>
         )
     }
 }
 
-export default footer
+export default Footer
