@@ -13,12 +13,12 @@ export const Title = styled.a`
     line-height: 48px;
     color: #FED613;
 
-    @media screen and (max-width: 700px){
-        left: 16px;
-        top: 150px;
-        width: 1200px;
+    @media screen and (max-width: 1439px){
+        left: 1%;
+        top: 10.5%;
+        width: 50%;
         line-height: 20px;
-        font-size: 120px;
+        font-size: 2.5em;
     }
 `
 
@@ -35,8 +35,12 @@ export const AboutUs = styled.a`
     line-height: 29px;
     color: #F2F2F2;
 
-    @media screen and (max-width: 700px){
-        opacity: 0;
+    @media screen and (max-width: 1439px){
+        width: 12%;
+        height: 5%;
+        left: 51%;
+        top: 10.5%;
+        font-size: 1.2em;
     }
 `
 export const HowToPlay = styled(AboutUs)`
@@ -44,12 +48,24 @@ export const HowToPlay = styled(AboutUs)`
     width: 12%;
     height: 5%;
     left: 66%;
+    
+    @media screen and (max-width: 1439px){
+        width: 13%;
+        height: 5%;
+        left: 63.5%;
+    }
 `
 export const Collaborate = styled(AboutUs)`
     position: absolute;
     width: 12%;
     height: 5%;
     left: 79%;
+
+    @media screen and (max-width: 1439px){
+        width: 12%;
+        height: 5%;
+        left: 78.2%;
+    }
 `
 export const Spanish = styled.a`
     position: absolute;
@@ -65,8 +81,12 @@ export const Spanish = styled.a`
     text-align: right;
     color: #F2F2F2;
 
-    @media screen and (max-width: 700px){
-        opacity: 0;
+    @media screen and (max-width: 1439px){
+        width: 2%;
+        height: 2%;
+        left: 93%;
+        top: 10.5%;
+        font-size: 1.2em;
     }
 `
 
@@ -75,6 +95,11 @@ export const Portuguese = styled(Spanish)`
     width: 30px;
     height: 29px;
     left: 97%;
+
+    @media screen and (max-width: 1439px){
+        left: 96.5%;
+       
+    }
 `
 export const BotBar = styled.div`
     position: absolute;
@@ -94,7 +119,12 @@ export const BotBar = styled.div`
         margin: 0.3% 12.1%;
     }
 
-    @media screen and (max-width: 700px){
-        opacity: 0;
+    @media screen and (max-width: 1439px){
+        height: 3%;
+
+        p{
+        font-size: 1.3em;
+        margin: -4px 1.2%;
+    }
     }
 `

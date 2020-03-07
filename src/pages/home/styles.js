@@ -4,30 +4,26 @@ import logoMobile from '../../images/logo@2x.png'
 
 export const HomeText = styled.div`
     position: absolute;
-    width: 32%;
+    width: 36%;
     height: 70%;
     left: 12%;
     top: 23%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     line-height: 137.19%;
     color: #FFFFFF;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1439px) {
         position: absolute;
         align-self: center;
-        width: 1400px;
-        height: 1200px;
-        
-        top: 270px;
-        font-family: Roboto;
-        font-style: normal;
+        width: 50%;
+        height: 40%;
+        left: 2%;
+        top: 20%;
         font-weight: 300;
-        font-size: 70px;
-        line-height: 137.19%;
-        color: #FFFFFF;
+        font-size: 1.2em;
     }
 `
 export const LogoArea = styled.div`
@@ -41,12 +37,11 @@ export const LogoArea = styled.div`
     background-position: center;
     background-size: cover;
 
-    @media screen and (max-width: 700px){
-        position: absolute;
-        width: 850px;
-        height: 850px;
-        left: 260px;
-        top: 700px;
+    @media screen and (max-width: 1439px){
+        width: 40%;
+        height: 40%;
+        left: 55%;
+        top: 28%;
         opacity: 0.7;
         background-image: url("${logoMobile}");
     }
@@ -87,5 +82,9 @@ export const CollabButton = styled.button`
             margin: 2px 200px;
             color: #F5364C;
         }
+    }
+
+    @media screen and (max-width: 1439px){
+        left: 2%;
     }
 `
