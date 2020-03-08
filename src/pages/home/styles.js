@@ -29,7 +29,7 @@ export const HomeText = styled.div`
     @media screen and (max-width: 767px){
         position: absolute;
         align-self: center;
-        width: 300%;
+        width: 290%;
         height: 40%;
         left: 9%;
         top: 20%;
