@@ -20,6 +20,13 @@ export const Title = styled.a`
         line-height: 20px;
         font-size: 2.5em;
     }
+    @media screen and (max-width: 767px){
+        left: 7%;
+        top: 15%;
+        width: 300%;
+        line-height: 20px;
+        font-size: 7em;
+    }
 `
 
 export const AboutUs = styled.a`
@@ -41,6 +48,9 @@ export const AboutUs = styled.a`
         left: 51%;
         top: 10.5%;
         font-size: 1.2em;
+    }
+    @media screen and (max-width: 767px){
+        opacity: 0;
     }
 `
 export const HowToPlay = styled(AboutUs)`
@@ -88,6 +98,10 @@ export const Spanish = styled.a`
         top: 10.5%;
         font-size: 1.2em;
     }
+
+    @media screen and (max-width: 767px){
+        opacity: 0;
+    }
 `
 
 export const Portuguese = styled(Spanish)`
@@ -121,10 +135,14 @@ export const BotBar = styled.div`
 
     @media screen and (max-width: 1439px){
         height: 3%;
-
+        width: 169.5%;
         p{
         font-size: 1.3em;
         margin: -4px 1.2%;
     }
+    }
+
+    @media screen and (max-width: 767px){
+        opacity: 0;
     }
 `

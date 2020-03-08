@@ -25,6 +25,16 @@ export const HomeText = styled.div`
         font-weight: 300;
         font-size: 1.2em;
     }
+
+    @media screen and (max-width: 767px){
+        position: absolute;
+        align-self: center;
+        width: 300%;
+        height: 40%;
+        left: 9%;
+        top: 20%;
+        font-size: 4em;
+    }
 `
 export const LogoArea = styled.div`
     position: absolute;
@@ -44,6 +54,9 @@ export const LogoArea = styled.div`
         top: 28%;
         opacity: 0.7;
         background-image: url("${logoMobile}");
+    }
+    @media screen and (max-width: 767px){
+        opacity: 0;
     }
 `
 export const CollabButton = styled.button`
@@ -68,11 +81,11 @@ export const CollabButton = styled.button`
         color: #F5364C;
     }
     
-    @media screen and (max-width: 700px){
-        width: 1300px;
+    @media screen and (max-width: 767px){
+        width: 1280px;
         height: 180px;
-        left: 55px;
-        top: 2600px;
+        left: 40%;
+        top: 270%;
         box-shadow: 10px 10px 0px #F5364C;
         p{
             font-family: Roboto;
@@ -87,4 +100,5 @@ export const CollabButton = styled.button`
     @media screen and (max-width: 1439px){
         left: 2%;
     }
+    
 `
